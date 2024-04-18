@@ -22,13 +22,13 @@
 
 <body>
 
-    <header>
+    <header style="z-index: 1;">
         <!-- Navbar -->
         @include('partials.navbar')
     </header>
 
     <main role="main">
-        <div class="container">
+        <div>
             @yield('content')
         </div>
     </main>

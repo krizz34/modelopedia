@@ -21,6 +21,7 @@
                     <li><a href="#" style="text-decoration: none; color:white">About</a></li><br/>
                     <li><a href="#" style="text-decoration: none; color:white">Blog</a></li><br/>
                     <li><a href="#" style="text-decoration: none; color:white">Contest</a></li><br/>
+                    <li><a href="#" style="text-decoration: none; color:white">Our Team</a></li><br/>
                     <li><a href="#" style="text-decoration: none; color:white">Contact Us</a></li>
                 </ul>
             </div>

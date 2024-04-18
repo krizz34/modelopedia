@@ -10,7 +10,25 @@ body {
 
 main {
     flex: 1;
+    padding-bottom: 150px;
 }
+
+footer {
+    z-index: 2;
+}
+
+/* styles of navbar */
+.custom-navbar-container{
+    padding-top: 80px;
+}
+
+.navbar-brand-text{
+    font-size: 28px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+
 
 /* styles of footer */
 .circleSocial {
@@ -24,3 +42,140 @@ main {
     align-items: center;
     text-decoration: none;
 }
+
+/* styles of modelo-home */
+.hero-img{
+    margin-top: -55px;
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center top;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 98.9vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* clip-path: inset(10px 20px 30px 40px); */
+    position: absolute;
+}
+
+.hero-overlay{
+    position: relative;
+    left: 0%;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(230, 173, 186, 0.7);
+}
+
+.hero-title {
+    position: absolute;
+    top: 50%; /* Adjust top position */
+    left: 48%; /* Adjust left position */
+    transform: translate(-50%, -50%); /* Center the title */
+    text-align: center; /* Center the text horizontally */
+    z-index: 1; /* Ensure it's above the overlay */
+    color: white; /* Adjust text color */
+    padding: 20px; /* Add padding for better readability */
+}
+
+.karlie-kloss{
+    font-size: 112px;
+    font-weight: bold;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.ftco-animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 0; /* Initially set to transparent */
+    animation-name: fadeInUp;
+  }
+  
+  /* Apply specific animation styles based on additional classes */
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+
+  /* style of home */
+.custom-carousel{
+    margin-top: -140px;
+}
+
+.carousal-image{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators .carousel-button {
+    border: 2px solid transparent; /* Transparent border */
+    border-radius: 50%; /* Circular button */
+    width: 15px; /* Button size */
+    height: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.carousel-indicators .active {
+    background-color: transparent; /* Transparent background when active */
+    border-color: red; /* Red border color when active */
+}
+
+
+.carousel-caption-custom{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: auto; /* Adjust left position as needed */
+    right: 50%;
+    z-index: 1;
+    color: #fff; /* Adjust text color */
+
+}
+
+ .carousel-caption-custom h5 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: -160px;
+
+}
+
+.carousel-caption-custom p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: -500px;
+}
+
+.carousel-caption-custom button {
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 230px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 0%;
+    margin-left: 550px;
+    margin-top: 50px;
+} 
+
+/* .carousel-item {
+    transition: transform 1s ease;
+} */
