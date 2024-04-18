@@ -17,21 +17,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
     <!-- Style -->
-    <style>
-        html,
-        body {
-            height: 100%;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        main {
-            flex: 1;
-        }
-    </style>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body>
