@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide custom-carousel">
         <div class="carousel-indicators">
             <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-button active" aria-current="true" aria-label="Slide 1"></div>
             <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-button carousel-button-center" aria-label="Slide 2"></div>
